@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-    origin:"https://conteno-front.pages.dev/",
+    origin:"https://conteno-front.pages.dev",
     credentials:true
 }))
 
